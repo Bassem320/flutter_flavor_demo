@@ -40,6 +40,7 @@ android {
             // this will be added at the end of applicationId.
             // like: com.razvantmz.flavors.flutter_flavors.dev
             applicationIdSuffix ".dev"
+            resValue "string", "app_name", "Dev App"
             versionNameSuffix ".dev"
         }
         // name of the the flavor, in this case "dev"
@@ -48,6 +49,7 @@ android {
             // this will be added at the end of applicationId.
             // like: com.razvantmz.flavors.flutter_flavors.prod
             applicationIdSuffix ".prod"
+            resValue "string", "app_name","Prod App"
             versionNameSuffix ".prod"
         }
     }
